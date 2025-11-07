@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border:1px solid red;
+    
+}
+.grid-item{
+    background-color: white;
+    
+}
+#inputButton{
+    padding: 20px;
+}
+#inputButton:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
